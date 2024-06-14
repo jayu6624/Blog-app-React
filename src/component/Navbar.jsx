@@ -5,17 +5,17 @@ function Navbar() {
   const navitem = (
     <>
       <li>
-        <a href="" className="">
+        <a href="/" className="">
           Home
         </a>
       </li>
       <li>
-        <a href="" className="">
+        <a href="/about" className="">
           About
         </a>
       </li>
       <li>
-        <a href="" className="">
+        <a href="/contect" className="">
           Contact
         </a>
       </li>
