@@ -5,7 +5,7 @@ function Div() {
     <div className="md:order-2 max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row mt-16">
       <div className="w-full md:w-1/2 md:order-2 order-1">
         <img
-          src="https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1718021711~exp=1718025311~hmac=548e448778ed0435c3beab1eb4e5437dd88b8a53f0142a95354e3314285c40cc&w=826"
+          src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           className="bg-none flex w-[70%] rounded-lg justify-center m-auto text-center mt-20"
           alt=""
         />
@@ -16,7 +16,7 @@ function Div() {
             Hello, Welcome here to learn something{" "}
             <span className="text-pink-500">new everyday !!!</span>{" "}
           </h1>
-          <p className="text-white text-l">
+          <p className="text-white text-l ">
             Welcome to BookMart, your ultimate book discovery and sharing
             platform! Connect with a global community of readers, find
             personalized recommendations, and share your favorite reads. Whether

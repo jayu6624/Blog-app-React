@@ -36,24 +36,21 @@ import React from "react";
 function Cards({ item }) {
   console.log(item);
   return (
-    <div>
-      <div className="card w-96 bg-base-100 shadow-xl m-auto">
+    <div className="p-4 transform transition duration-500 hover:scale-105">
+      <div className="card w-96 bg-base-100 shadow-xl m-auto mt-4 border border-white">
         <figure>
-          <img src={item.image} alt={item.name} />
+          <img src={item.image} alt={item.name} className="aspect-square rounded-lg" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">{item.Title}</h2>
-          <p>{item.dis}</p>
-          <div className="card-actions space-x-screen-3">
-            <div className="bg-pink-500 p-3 rounded-xl items-start">
+          <h2 className="card-title text-xl font-bold text-white">{item.Title}</h2>
+          <p className="text-gray-400">{item.dis}</p>
+          <div className="card-actions flex justify-between items-center mt-4">
+            <div className="bg-pink-500 p-3 rounded-xl text-white">
               {item.price}
-            </div>{" "}
-            <div className="bg-pink-500 p-3 rounded-xl relative justify-end">
+            </div>
+            <div className="bg-pink-500 p-3 rounded-xl text-white cursor-pointer">
               Buy Now
             </div>
-          </div>
-          <div className="card-actions justify-end">
-            
           </div>
         </div>
       </div>

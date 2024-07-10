@@ -133,7 +133,6 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
 import Cards from "./Cards.jsx";
 
 function Freebooks() {
@@ -145,7 +144,7 @@ function Freebooks() {
       catagary: "free",
       price: "$20.99",
       image:
-        "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg",
+        "https://img.freepik.com/free-photo/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.jpg",
       dis: "Science fiction (sci-fi) explores futuristic ideas and advanced technology. It features space travel, robots, and AI, imagining future impacts on society and exploring alternate realities and dystopias.",
     },
     {
@@ -155,17 +154,17 @@ function Freebooks() {
       catagary: "free",
       price: "$10.99",
       image:
-        "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg",
+        "https://cdn.britannica.com/09/200809-050-30C0B865/Vallabhbhai-Patel.jpg",
       dis: "Science fiction (sci-fi) explores futuristic ideas and advanced technology. It features space travel, robots, and AI, imagining future impacts on society and exploring alternate realities and dystopias.",
     },
     {
       id: 3,
-      name: " mythology",
-      Title: "Shiva",
+      name: "Shiva",
+      Title: "Mythology",
       catagary: "free",
       price: "$21.99",
       image:
-        "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/23/16/34/ai-generated-8651561_640.jpg",
       dis: "Science fiction (sci-fi) explores futuristic ideas and advanced technology. It features space travel, robots, and AI, imagining future impacts on society and exploring alternate realities and dystopias.",
     },
     {
@@ -239,7 +238,7 @@ function Freebooks() {
   };
 
   return (
-    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 space-y-4 mt-7 ">
+    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 space-y-4 mt-7  mb-7">
       <div>
         <h1 className="text-white text-xl font-bold">Free offered Books</h1>
         <p className="mt-4 text-white">
@@ -253,11 +252,10 @@ function Freebooks() {
           discussions.
         </p>
       </div>
-      <div className="">
+      <div className="mt-7">
         <Slider {...settings}>
           {filterData.map((item) => (
             <Cards item={item} key={item.id} />
-
           ))}
         </Slider>
       </div>

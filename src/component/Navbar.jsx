@@ -90,7 +90,7 @@ function Navbar() {
                 alt=""
                 className="w-8 flex mx-3 rounded-lg justify-center"
               />
-              bookMart
+              blogMart
             </a>
           </div>
           <div className="navbar-end space-x-3">

@@ -1,17 +1,16 @@
 import React from 'react'
 import Navbar from '../component/Navbar'
-import Blog from '../component/Blog'
 import Footer from '../component/Footer'
-import Allblogs from '../component/Allblogs'
+import Blog from '../component/Blog'
 
-function Newblog() {
+function Createblog() {
   return (
     <div>
         <Navbar/>
-        <Allblogs/>
+        <Blog/>
         <Footer/>
     </div>
   )
 }
 
-export default Newblog
+export default Createblog
